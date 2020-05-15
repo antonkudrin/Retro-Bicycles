@@ -375,8 +375,20 @@ margin-bottom:0;
 padding:0;
 list-style-type: none;
 } 
-.footer .list-3 li a{
+/*.footer .list-3 li a.mail{
+color: #D08B98;
+text-decoration:underline;
+}*/
+.footer .list-1 li a,
+		.list-2 li a,
+		.list-3 li a{
+color: #A5ADB8;
+text-decoration:none;
+transition: all 0.3s ease;
+}
+.footer .list-1 li a:hover,
+		.list-2 li a:hover,
+		.list-3 li a:hover{
 color: #D08B98;
 text-decoration:underline;
 }
-
