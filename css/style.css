@@ -143,7 +143,6 @@ h6 {
 
 .slick-list.dragging {
   cursor: pointer;
-  cursor: hand;
 }
 
 .slick-slider .slick-track,
@@ -165,7 +164,7 @@ h6 {
 .slick-track:before,
 .slick-track:after {
   display: table;
-  content: '';
+  content: "";
 }
 
 .slick-track:after {
@@ -183,7 +182,7 @@ h6 {
   min-height: 1px;
 }
 
-[dir='rtl'] .slick-slide {
+[dir="rtl"] .slick-slide {
   float: right;
 }
 
@@ -228,7 +227,7 @@ h6 {
 /* Icons */
 
 @font-face {
-  font-family: 'slick';
+  font-family: "slick";
   font-weight: normal;
   font-style: normal;
   src: url("./fonts/slick.eot");
@@ -275,15 +274,15 @@ h6 {
 
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before {
-  opacity: .25;
+  opacity: 0.25;
 }
 
 .slick-prev:before,
 .slick-next:before {
-  font-family: 'slick';
+  font-family: "slick";
   font-size: 20px;
   line-height: 1;
-  opacity: .75;
+  opacity: 0.75;
   color: white;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -293,7 +292,7 @@ h6 {
   left: -25px;
 }
 
-[dir='rtl'] .slick-prev {
+[dir="rtl"] .slick-prev {
   right: -25px;
   left: auto;
 }
@@ -302,7 +301,7 @@ h6 {
   right: -25px;
 }
 
-[dir='rtl'] .slick-next {
+[dir="rtl"] .slick-next {
   right: auto;
   left: -25px;
 }
@@ -359,7 +358,7 @@ h6 {
 }
 
 .slick-dots li button:before {
-  font-family: 'slick';
+  font-family: "slick";
   font-size: 6px;
   line-height: 20px;
   position: absolute;
@@ -367,16 +366,16 @@ h6 {
   left: 0;
   width: 20px;
   height: 20px;
-  content: '•';
+  content: "•";
   text-align: center;
-  opacity: .25;
+  opacity: 0.25;
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots li.slick-active button:before {
-  opacity: .75;
+  opacity: 0.75;
   color: black;
 }
 
