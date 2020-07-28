@@ -148,7 +148,7 @@
 //   });
 //});
 const menuIcon = document.querySelector('.header-menu__icon');
-const menuIconElems = document.querySelectorAll('.header-menu__icon > span, body, .header__item-1');
+const menuIconElems = document.querySelectorAll('.header-menu__icon > span, body, .header__item-left');
 const menuLink = document.querySelectorAll('.header-menu__link');
 menuIcon.addEventListener('click', function (e) {
    menuIconElems.forEach(function (entry) {
